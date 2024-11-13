@@ -1,0 +1,124 @@
+:root {
+    --white: #f0f0f0;
+    --light-gray: #999999;
+    --dark-gray: #202020;
+    --lime-green: #c3f7d6;
+    --light-blue: #71c5ec;
+    --yellow: #f6d105;
+    --red: #f10202;
+    --333: #666;
+    --purple: #d10bd9;
+}
+
+* {
+    color: var(--almost-black);
+}
+
+/* -- General Aspect -- */
+html, body {
+    height: 100%;
+    font-size: 18px;
+}
+
+body {
+    background-color: var(--dark-gray);
+}
+
+.shell {
+    width: 70%;
+    overflow-x: auto;
+    background-color: var(--dark-gray);
+    color: #f8f8f2;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.mais {
+    font-variant: small-caps;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+.hidden {
+    display: none;
+}
+/* ---- */
+
+/* -- Components -- */
+.block {
+    padding-top: 2em;
+    padding-bottom: 2.5em;
+}
+
+.footerPush {
+    width:100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.sFooter {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    background-color: var(--dark-gray);
+    text-align: center;
+    line-height: 80%;
+}
+
+.sFooter h6, a, button {
+    text-decoration: none;
+    color: var(--white);
+    font-variant: small-caps;
+}
+
+.pdImg {
+    padding: 5px;
+}
+
+.hImg {
+    height: 500px !important;
+    width: auto;
+}
+
+.tbCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ---- */
+
+/* -- Colors -- */
+.bg-light-gray {
+    background-color: var(--light-gray);
+}
+
+.bg-dark-gray {
+    background-color: var(--dark-gray) !important;
+    border-color: var(--dark-gray) !important;
+    color: var(--white);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.txt-light-blue {
+    color: var(--light-blue);
+}
+
+.txt-yellow {
+    color: var(--yellow);
+}
+
+.txt-red {
+    color: var(--red);
+}
+
+.txt-purple {
+    color: var(--purple);
+}
+
+.txt-comment {
+    color: var(--333);
+}
+/* ---- */
